@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 
 import { Container } from "../../styles/globalStyles";
-// import { Title, Paragrafo } from "./styled";
 import api from "../../services/api";
+import * as example from "../../store/modules/example/actions";
 
 export default function Login() {
     const [alunos, setAlunos] = useState([]);
@@ -15,9 +15,7 @@ export default function Login() {
 
     function handleClick(e) {
         e.preventDefault();
-        dispatch({
-            type: "BOTAO_CLICADO",
-        });
+        dispatch(example.clicaBotao());
     }
     return (
         <>
