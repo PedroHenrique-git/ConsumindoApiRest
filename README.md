@@ -1,3 +1,3 @@
-<h1>Consumindo api rest</h1>
+<h1>Consuming api rest</h1>
 
-<p>Fonte de dados: https://github.com/PedroHenrique-git/ApiRestNode</p>
+<p>Data source: https://github.com/PedroHenrique-git/ApiRestNode</p>
